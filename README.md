@@ -3,7 +3,7 @@
 #### **About Me**
 
 - ❤️ **Interests:** Cloud Computing, Infrastructure as Code (IaC), Content Creation (both organic and AI 😄)
-- 🌱 **I’m currently learning...** Google CLoud Platform (GCP) ☁️, Terraform 🪄, Kubernetes 🎼, Prompt Engineering 🔑
+- 🌱 **I’m currently learning...** Google Cloud Platform (GCP) ☁️, Terraform 🪄, Kubernetes 🎼, Prompt Engineering 🔑
 
 <hr />
 
@@ -12,6 +12,11 @@
 - 📺 **I’m currently watching...** African Cup of Nations ⚽ (AFCON)
 
 <!--
+sections to add:
+- latest certs
+- latest badges for GCP public profile
+
+
 **olubabs01a/olubabs01a** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
