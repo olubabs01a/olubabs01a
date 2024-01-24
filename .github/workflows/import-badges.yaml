@@ -7,29 +7,13 @@ jobs:
   skills-boost-badges:
     name: Import Skills Boost badges at /
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["pypy3.9", "pypy3.10", "3.9", "3.10", "3.11", "3.12"]
-
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        # This is the version of the action for setting up Python, not the Python version.
-        uses: actions/setup-python@v4
-        with:
-          # Semantic version range syntax or exact version of a Python version
-          python-version: "3.x"
-          # Optional - x64 or x86 architecture, defaults to x64
-          architecture: "x64"
-      # You can test your matrix by printing the current Python version
-      - name: Display Python version
-        run: python -c "import sys; print(sys.version)"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
       - name: Check for updated Skills Boost Badges
-        run: python -u import-skills-boost.py 3
+        uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
+        with:
+          skills-boost-url: "https://bit.ly/gcp-bab501a"
+          badge-count: 3
+          token: ${{ secrets.token }}
       - name: Commit and push
         run: |-
           git diff
