@@ -1,7 +1,10 @@
 name: Import Skills Badges
+# on:
+#   schedule:
+#     - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
+
 on:
-  schedule:
-    - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
+  workflow_call:
 
 jobs:
   skills-boost-badges:
