@@ -5,12 +5,8 @@
 -   ❤️ **Interests:** Cloud Computing, Infrastructure as Code (IaC), Content Creation (both organic and AI 😄)
 -   🌱 **I’m currently learning...** Google Cloud Platform (GCP) ☁️, Terraform 🪄, Kubernetes 🎼, Prompt Engineering 🔑
 
-<hr />
-
 <!-- start latest badges -->
 <!-- end latest badges -->
-
-<hr />
 
 ### **Misc Me**
 

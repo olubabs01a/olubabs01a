@@ -6,7 +6,7 @@ from urllib import request
 skillsProfileUrl = 'https://bit.ly/gcp-bab501a'
 
 def generate_readme_text(badges: dict, limit = 3):
-    updates = '<!-- start latest badges -->\n'
+    updates = '<!-- start latest badges --><hr />\n'
     updates += '### **&#127882; Latest Badges from Google Cloud Skills Boost &#127882;**'.format(limit)
     updates += '\n<ol>'
 
@@ -29,7 +29,7 @@ def generate_readme_text(badges: dict, limit = 3):
 
     updates += '</ol>\n\n'
     updates += '#### &#10024; Visit full profile [here]({}) &#10024;'.format(skillsProfileUrl)
-    updates += '<!-- end latest badges -->'
+    updates += '<hr /><!-- end latest badges -->'
 
     # Rewrite README with new post content
     fileName = 'README.md'
