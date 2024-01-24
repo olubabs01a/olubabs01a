@@ -4,7 +4,9 @@ import re
 from urllib import request
 
 def generate_readme_text(badges: dict, limit = 3):
-    updates = '<!-- start latest badges -->\n';
+    updates = '<!-- start latest badges -->\n'
+    updates += '### **&#127882; Latest Badges from Google Cloud Skills Boost &#127882;**'.format(limit)
+    updates += '\n<ol>'
 
     if len(badges) < limit or limit <= 0:
         limit = len(badges)
@@ -12,24 +14,24 @@ def generate_readme_text(badges: dict, limit = 3):
     count = 1
     for badgeKey in badges.keys():
         completion = badges[badgeKey][1]
-        row = '- ' + completion + '\n'
-        row += '{}'.format(badges[badgeKey][0])
+        row = '<li>' + completion + '<br /><br />'
+        row += '{}</li><br />'.format(badges[badgeKey][0])
 
         print('Badge #{} found => {}, {}\n'.format(count, badgeKey, completion))
 
-        updates += row;
+        updates += row
         count += 1
-        
+
         if count > limit:
             break
 
-    updates += '<!-- end latest badges -->';
+    updates += '</ol><!-- end latest badges -->'
 
     # Rewrite README with new post content
     fileName = 'README.md'
     currentText = open(fileName, mode='r', encoding='utf8').read();
 
-    badgePattern = r'<!-- start latest badges -->\S*\s*<!-- end latest badges -->'
+    badgePattern = r'<!-- start latest badges -->[\S\s]*<!-- end latest badges -->'
     matches = re.search(badgePattern, currentText)
 
     if matches:
@@ -39,6 +41,9 @@ def generate_readme_text(badges: dict, limit = 3):
             with open('README.md', mode='w', encoding='utf8') as f:
                 f.write(newText)
                 f.close()
+
+            print(updates)
+            print('\nUpdates successful!')
         except:
             # Restore original content on failure
             with open('README.md', mode='w', encoding='utf8') as f:
@@ -70,7 +75,7 @@ try:
 
                 # Add styling to badge thumbnail
                 thumbnail = badgeEl.findNext('a')               
-                thumbnail.find('img').attrs['style'] = ['max-width: 10rem;']
+                thumbnail.find('img').attrs['style'] = ['max-width: 15rem;']
 
                 badge_data[badgeName] = [thumbnail, completion]
 

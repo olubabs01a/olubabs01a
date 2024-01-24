@@ -1,6 +1,6 @@
-### Is This Thing On? 🎤🙋🏾‍♀️🎸🎶
+## Is This Thing On? 🎤👩🏾‍💻🎸🎶
 
-#### **About Me**
+### **About Me**
 
 -   ❤️ **Interests:** Cloud Computing, Infrastructure as Code (IaC), Content Creation (both organic and AI 😄)
 -   🌱 **I’m currently learning...** Google Cloud Platform (GCP) ☁️, Terraform 🪄, Kubernetes 🎼, Prompt Engineering 🔑
@@ -12,7 +12,7 @@
 
 <hr />
 
-#### **Misc Me**
+### **Misc Me**
 
 -   📺 **I’m currently watching...** African Cup of Nations 🌍⚽🏆 (AFCON)
 
