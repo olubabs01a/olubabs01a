@@ -1,33 +1,16 @@
 name: Import Skills Badges
-# on:
-#   schedule:
-#     - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
-
 on:
+  schedule:
+    - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
   workflow_call:
+
+permissions:
+  contents: write
 
 jobs:
   skills-boost-badges:
-    uses: "olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges"
+    uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
     with:
       skills-boost-url: "https://bit.ly/gcp-bab501a"
       badge-count: 3
-      token: ${{ secrets.token }}    
-    permissions:
-      contents: write
-
-    # steps:
-    #   - name: Check for updated Skills Boost Badges
-    #     uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
-    #     with:
-    #       skills-boost-url: "https://bit.ly/gcp-bab501a"
-    #       badge-count: 3
-    #       token: ${{ secrets.token }}
-      # - name: Commit and push
-      #   run: |-
-      #     git diff
-      #     git config --global user.email "actions@users.noreply.github.com"
-      #     git config --global user.name "README-bot"
-      #     git add -A
-      #     git commit -m "Update badges" || git commit --allow-empty -m "Empty commit"
-      #     git push
+      token: ${{ secrets.token }}
