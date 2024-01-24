@@ -16,4 +16,4 @@ jobs:
     with:
       skills-boost-url: https://bit.ly/gcp-bab501a
       badge-count: 3
-      secrets.token: ${{ secrets.token }}
+    secrets: inherit
