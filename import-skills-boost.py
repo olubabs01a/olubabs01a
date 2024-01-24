@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import re
 from urllib import request
 
+skillsProfileUrl = 'https://bit.ly/gcp-bab501a'
+
 def generate_readme_text(badges: dict, limit = 3):
     updates = '<!-- start latest badges -->\n'
     updates += '### **&#127882; Latest Badges from Google Cloud Skills Boost &#127882;**'.format(limit)
@@ -25,7 +27,9 @@ def generate_readme_text(badges: dict, limit = 3):
         if count > limit:
             break
 
-    updates += '</ol><!-- end latest badges -->'
+    updates += '</ol>\n\n'
+    updates += '#### &#10024; Visit full profile [here]({}) &#10024;'.format(skillsProfileUrl)
+    updates += '<!-- end latest badges -->'
 
     # Rewrite README with new post content
     fileName = 'README.md'
@@ -55,7 +59,7 @@ def generate_readme_text(badges: dict, limit = 3):
         raise Exception('Badge destination pattern not found in {}'.format(fileName))
 
 try:
-    with request.urlopen('https://bit.ly/gcp-bab501a') as f:
+    with request.urlopen(skillsProfileUrl) as f:
         contents = f.read()
 
         soup = BeautifulSoup(contents, 'html.parser')
@@ -79,17 +83,19 @@ try:
 
                 badge_data[badgeName] = [thumbnail, completion]
 
-        print('{} badge(s) found.'.format(len(badge_data)))
+        badgeCount = len(badge_data)
+        print('{} badge(s) found.'.format(badgeCount))
 
-        if len(argv) == 1:
-            limit = 3
-            print('Limit has been set to default of {}.'.format(limit))
-        else:
-            limit = int(argv[1])
+        if badgeCount > 0:
+            if len(argv) == 1:
+                limit = 3
+                print('Limit has been set to default of {}.'.format(limit))
+            else:
+                limit = int(argv[1])
 
-        print('Up to {} badge(s) will be printed.\n'.format(limit))
+            print('Up to {} badge(s) will be printed.\n'.format(limit))
 
-        generate_readme_text(badge_data, limit)
+            generate_readme_text(badge_data, limit)
 
 except Exception as e:
     print("An error occurred: ", e)
