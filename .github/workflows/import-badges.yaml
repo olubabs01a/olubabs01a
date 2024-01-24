@@ -10,7 +10,8 @@ jobs:
       skills-boost-url: "https://bit.ly/gcp-bab501a"
       badge-count: 3
       token: ${{ secrets.token }}    
-
+    permissions:
+      contents: write
 
     # steps:
     #   - name: Check for updated Skills Boost Badges
