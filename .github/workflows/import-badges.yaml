@@ -1,7 +1,7 @@
 name: Import Skills Badges
 on:
   schedule:
-    - cron: "0 */12 * * *" # Update every 12 hours
+    - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
 
 jobs:
   skills-boost-badges:
@@ -29,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Check for updated Skills Boost Badges
-        run: python -u import-skills-boost.py
+        run: python -u import-skills-boost.py 3
       - name: Commit and push
         run: |-
           git diff
