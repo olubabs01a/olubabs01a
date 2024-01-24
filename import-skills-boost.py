@@ -34,7 +34,18 @@ def generate_readme_text(badges: dict, limit = 3):
 
     if matches:
         newText = re.compile(badgePattern).sub(updates, currentText)
-        print(newText.encode(errors='ignore'))
+
+        try:
+            with open('README.md', mode='w', encoding='utf8') as f:
+                f.write(newText)
+                f.close()
+        except:
+            # Restore original content on failure
+            with open('README.md', mode='w', encoding='utf8') as f:
+                f.write(currentText)
+                f.close()
+            raise
+
     else:
         raise Exception('Badge destination pattern not found in {}'.format(fileName))
 
