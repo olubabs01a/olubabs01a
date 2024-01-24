@@ -23,8 +23,8 @@ try:
                 completion = re.sub('\s\s+' , ' ', completion)
 
                 # Add styling to badge thumbnail
-                thumbnail = badgeEl.findNext('a')
-                thumbnail.find('img').attrs['style'] = 'max-width: 10rem;'
+                thumbnail = badgeEl.findNext('a')               
+                thumbnail.find('img').attrs['style'] = ['max-width: 10rem;']
 
                 badge_data[badgeName] = [thumbnail, completion]
 
