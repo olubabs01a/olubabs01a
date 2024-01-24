@@ -3,6 +3,41 @@ from bs4 import BeautifulSoup
 import re
 from urllib import request
 
+def generate_readme_text(badges: dict, limit = 3):
+    updates = '<!-- start latest badges -->\n';
+
+    if len(badges) < limit or limit <= 0:
+        limit = len(badges)
+
+    count = 1
+    for badgeKey in badges.keys():
+        completion = badges[badgeKey][1]
+        row = '- ' + completion + '\n'
+        row += '{}'.format(badges[badgeKey][0])
+
+        print('Badge #{} found => {}, {}\n'.format(count, badgeKey, completion))
+
+        updates += row;
+        count += 1
+        
+        if count > limit:
+            break
+
+    updates += '<!-- end latest badges -->';
+
+    # Rewrite README with new post content
+    fileName = 'README.md'
+    currentText = open(fileName, mode='r', encoding='utf8').read();
+
+    badgePattern = r'<!-- start latest badges -->\S*\s*<!-- end latest badges -->'
+    matches = re.search(badgePattern, currentText)
+
+    if matches:
+        newText = re.compile(badgePattern).sub(updates, currentText)
+        print(newText.encode(errors='ignore'))
+    else:
+        raise Exception('Badge destination pattern not found in {}'.format(fileName))
+
 try:
     with request.urlopen('https://bit.ly/gcp-bab501a') as f:
         contents = f.read()
