@@ -16,4 +16,5 @@ jobs:
     with:
       skills-boost-url: https://bit.ly/gcp-bab501a
       badge-count: 3
+      ref: feature/gcp-skills-boost-badges
     secrets: inherit
