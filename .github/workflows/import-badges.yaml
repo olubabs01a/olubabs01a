@@ -2,7 +2,7 @@ name: Import Skills Badges
 on:
   push:
     branches:
-    - master
+      - master
   schedule:
     - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
   workflow_dispatch:
@@ -17,4 +17,5 @@ jobs:
       skills-boost-url: https://bit.ly/gcp-bab501a
       badge-count: 3
       repo-ref: olubabs01a/github-workflows@feature/gcp-skills-boost-badges
+      clone-path: gcp-skills-boost-badges
     secrets: inherit
