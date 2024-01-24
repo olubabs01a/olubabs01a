@@ -8,8 +8,8 @@
 <br />
 
 [![.github/workflows/import-badges.yaml](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg?event=schedule)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
-<!-- start latest badges --><hr />
-<hr /><!-- end latest badges -->
+<!-- start latest badges -->
+<!-- end latest badges -->
 
 ### **Misc Me**
 
