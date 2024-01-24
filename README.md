@@ -5,8 +5,11 @@
 -   ❤️ **Interests:** Cloud Computing, Infrastructure as Code (IaC), Content Creation (both organic and AI 😄)
 -   🌱 **I’m currently learning...** Google Cloud Platform (GCP) ☁️, Terraform 🪄, Kubernetes 🎼, Prompt Engineering 🔑
 
-<!-- start latest badges -->
-<!-- end latest badges -->
+<br />
+
+[![.github/workflows/import-badges.yaml](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg?event=schedule)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
+<!-- start latest badges --><hr />
+<hr /><!-- end latest badges -->
 
 ### **Misc Me**
 
