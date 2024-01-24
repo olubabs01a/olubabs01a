@@ -1,5 +1,8 @@
 name: Import Skills Badges
 on:
+  push:
+    branches:
+    - master
   schedule:
     - cron: "12 */12 * * *" # Update every 12 hours on the 12th minute
   workflow_call:
