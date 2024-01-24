@@ -5,15 +5,20 @@ on:
 
 jobs:
   skills-boost-badges:
-    name: Import Skills Boost badges at /
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check for updated Skills Boost Badges
-        uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
-        with:
-          skills-boost-url: "https://bit.ly/gcp-bab501a"
-          badge-count: 3
-          token: ${{ secrets.token }}
+    uses: "olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges"
+    with:
+      skills-boost-url: "https://bit.ly/gcp-bab501a"
+      badge-count: 3
+      token: ${{ secrets.token }}    
+
+
+    # steps:
+    #   - name: Check for updated Skills Boost Badges
+    #     uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
+    #     with:
+    #       skills-boost-url: "https://bit.ly/gcp-bab501a"
+    #       badge-count: 3
+    #       token: ${{ secrets.token }}
       # - name: Commit and push
       #   run: |-
       #     git diff
