@@ -16,6 +16,7 @@ jobs:
     with:
       skills-boost-url: https://bit.ly/gcp-bab501a
       badge-count: 3
-      repo-ref: olubabs01a/github-workflows@feature/gcp-skills-boost-badges
+      repo-name: olubabs01a/github-workflows
+      repo-ref: feature/gcp-skills-boost-badges
       clone-path: gcp-skills-boost-badges
     secrets: inherit
