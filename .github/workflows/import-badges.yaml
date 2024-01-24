@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   skills-boost-badges:
-    uses: olubabs01a/github-workflows/.github/workflows/reusable-workflow.yml@feature/gcp-skills-boost-badges
+    uses: "olubabs01a/github-workflows/gcp-skills-boost-badges/.github/workflows/update-readme.yaml@feature/gcp-skills-boost-badges"
     with:
       skills-boost-url: "https://bit.ly/gcp-bab501a"
       badge-count: 3
