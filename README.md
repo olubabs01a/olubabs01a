@@ -7,7 +7,7 @@
 
 <br />
 
-[![.github/workflows/import-badges.yaml](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg?event=schedule)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
+[![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges -->
 <!-- end latest badges -->
 
