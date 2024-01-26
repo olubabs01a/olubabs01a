@@ -15,7 +15,7 @@ jobs:
     uses: olubabs01a/github-workflows/.github/workflows/update-readme.yaml@feature/gcp-skills-boost-badges
     with:
       skills-boost-url: https://bit.ly/gcp-bab501a
-      badge-count: 5
+      badge-count: 3
       repo-name: olubabs01a/github-workflows
       repo-ref: feature/gcp-skills-boost-badges
       clone-path: gcp-skills-boost-badges
