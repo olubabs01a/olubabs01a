@@ -10,10 +10,10 @@
 [![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges --><hr />
 ### **&#127882; Latest Badges from Google Cloud Skills Boost &#127882;**
-<ol><li>Earned Jan 22, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7537403"><img alt="Badge for Level 1: Introduction to Google AppSheet" src="https://cdn.qwiklabs.com/G%2BhKrbqg5vgsWXNI63gOE%2BDIZyAegxMYvijvIKVW2JM%3D" style="max-width: 25%;"/>
-</a></li><br /><li>Earned Jan 21, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7266822"><img alt="Badge for Use Functions, Formulas, and Charts in Google Sheets" src="https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D" style="max-width: 25%;"/>
-</a></li><br /><li>Earned Jan 21, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7260868"><img alt="Badge for App Building with AppSheet" src="https://cdn.qwiklabs.com/5i0NFHuTMr9y5bQed6a57qM%2FnfHxeTYaqyWIwMGk054%3D" style="max-width: 25%;"/>
-</a></li><br /></ol>
+<div style="max-width: 15rem;display:inline-flex;"><ol><li>Earned Jan 22, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7537403"><img alt="Badge for Level 1: Introduction to Google AppSheet" src="https://cdn.qwiklabs.com/G%2BhKrbqg5vgsWXNI63gOE%2BDIZyAegxMYvijvIKVW2JM%3D"/>
+</a></li><br /><li>Earned Jan 21, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7266822"><img alt="Badge for Use Functions, Formulas, and Charts in Google Sheets" src="https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D"/>
+</a></li><br /><li>Earned Jan 21, 2024 EST<br /><br /><a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7260868"><img alt="Badge for App Building with AppSheet" src="https://cdn.qwiklabs.com/5i0NFHuTMr9y5bQed6a57qM%2FnfHxeTYaqyWIwMGk054%3D"/>
+</a></li><br /></ol></div>
 
 #### &#10024; Visit full profile [here]() &#10024;<hr /><!-- end latest badges -->
 
