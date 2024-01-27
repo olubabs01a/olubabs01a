@@ -10,7 +10,7 @@
 [![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges --><hr />
 ### **&#127882; 5 Latest Badges from Google Cloud Skills Boost &#127882;**
-_Last checked: 2024-01-26T06:24:37.383023+00:00_
+_Last checked: 2024-01-26T12:21:18.522388+00:00_
 
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7537403"><img alt="Badge for Level 1: Introduction to Google AppSheet" src="https://cdn.qwiklabs.com/G%2BhKrbqg5vgsWXNI63gOE%2BDIZyAegxMYvijvIKVW2JM%3D" title="Earned Jan 22, 2024 EST" width="25%"/>
 </a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7266822"><img alt="Badge for Use Functions, Formulas, and Charts in Google Sheets" src="https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D" title="Earned Jan 21, 2024 EST" width="25%"/>
