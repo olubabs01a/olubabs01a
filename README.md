@@ -10,11 +10,11 @@
 [![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges --><hr />
 ### **&#127882; 3 Latest Badges from Google Cloud Skills Boost &#127882;**
-_Last checked: 2024-01-27 12:20:56+00:00_
+_Last checked: 2024-01-28 12:21:05+00:00_
 
-<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7537403"><img alt="Badge for Level 1: Introduction to Google AppSheet" src="https://cdn.qwiklabs.com/G%2BhKrbqg5vgsWXNI63gOE%2BDIZyAegxMYvijvIKVW2JM%3D" title="Earned Jan 22, 2024 EST" width="25%"/>
-</a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7266822"><img alt="Badge for Use Functions, Formulas, and Charts in Google Sheets" src="https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D" title="Earned Jan 21, 2024 EST" width="25%"/>
-</a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7260868"><img alt="Badge for App Building with AppSheet" src="https://cdn.qwiklabs.com/5i0NFHuTMr9y5bQed6a57qM%2FnfHxeTYaqyWIwMGk054%3D" title="Earned Jan 21, 2024 EST" width="25%"/>
+<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7875966"><img alt="Badge for Trust and Security with Google Cloud" src="https://cdn.qwiklabs.com/y56uliuSDzpvMDlM1G%2Fw7SQfqZ16TvQyRv2SUZSQn0I%3D" title="Earned Jan 27, 2024 EST" width="25%"/>
+</a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7875949"><img alt="Badge for Scaling with Google Cloud Operations" src="https://cdn.qwiklabs.com/JAKPVHm1i4QpBEpsoBSE1bfHrs9mW7mrhH%2BXWKsWOHM%3D" title="Earned Jan 27, 2024 EST" width="25%"/>
+</a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/7875939"><img alt="Badge for Exploring Data Transformation with Google Cloud" src="https://cdn.qwiklabs.com/TndvG3ntUvqPoIwQwQw7hT%2FRjI8FO4oYzqygAB7OP08%3D" title="Earned Jan 27, 2024 EST" width="25%"/>
 </a>&emsp;&emsp;&emsp;
 
 #### &#10024; Visit full profile [here](https://bit.ly/gcp-bab501a) &#10024;<hr /><!-- end latest badges -->
