@@ -16,9 +16,12 @@ _Last checked: 2024-03-05 12:21:26+00:00_
 
 #### &#10024; Visit full profile [here](https://bit.ly/gcp-bab501a) &#10024;<hr /><!-- end latest badges -->
 
+<!--
 ### **Misc Me**
 
 -   📺 **I’m currently watching...** African Cup of Nations 🌍⚽🏆 (AFCON)
+
+-->
 
 <!--
 - 🔭 I’m currently working on ...
