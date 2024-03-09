@@ -10,7 +10,7 @@
 [![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges --><hr />
 ### **&#127882; 3 Latest Badges from Google Cloud Skills Boost &#127882;**
-_Last checked: 2024-03-08 12:21:18+00:00_
+_Last checked: 2024-03-09 12:20:49+00:00_
 
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/8205720"><img alt="Badge for Duet AI in Google Meet" src="https://cdn.qwiklabs.com/PamnsR1KElKqXSF9fGIG%2FCAPYSSyvt6JQpAEiPfYp1w%3D" title="Earned Mar 2, 2024 EST" width="25%"/></a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/8205713"><img alt="Badge for Duet AI in Google Slides" src="https://cdn.qwiklabs.com/q%2FKfTB9EYkKUR2ox4jAPaJFbCBCqqo1durzg7b6M7hI%3D" title="Earned Mar 2, 2024 EST" width="25%"/></a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/8139395"><img alt="Badge for The Arcade Trivia February 2024 Week 3" src="https://cdn.qwiklabs.com/5vglqOWKFdMT1a%2FrL8iz8le5fQgqK4DTSbsjfzpUu2c%3D" title="Earned Feb 25, 2024 EST" width="25%"/></a>&emsp;&emsp;&emsp;
 
