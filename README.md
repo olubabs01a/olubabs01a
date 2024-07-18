@@ -10,7 +10,7 @@
 [![Import Skills Badges](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml/badge.svg)](https://github.com/olubabs01a/olubabs01a/actions/workflows/import-badges.yaml)
 <!-- start latest badges --><hr />
 ### **&#127882; 3 Latest Badges from Google Cloud Skills Boost &#127882;**
-_Last updated: 2024-07-17 12:21:46+00:00_
+_Last updated: 2024-07-18 12:21:49+00:00_
 
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/9849608"><img alt="Badge for The Arcade June Speedrun" src="https://cdn.qwiklabs.com/o3vvQUlhdeUttI4qFkalaySen%2BXT4d1j%2FkELDMem7nw%3D" title="Earned Jul 14, 2024 EDT" width="25%"/></a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/8420675"><img alt="Badge for Prompt Design in Vertex AI" src="https://cdn.qwiklabs.com/GDVGByqhjlVp6OOvMLuEfCXvSAFBh33BQ2IvLZFaO6A%3D" title="Earned Mar 23, 2024 EDT" width="25%"/></a>&emsp;&emsp;&emsp;<a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/fc3664f8-a8c5-455e-8904-9864b81d66d5/badges/8413147"><img alt="Badge for Introduction to Vertex AI Studio" src="https://cdn.qwiklabs.com/XWpHGUdCD7IXe52mzp0MF6sXTSdBqdIFXt%2BJME0IK8Q%3D" title="Earned Mar 22, 2024 EDT" width="25%"/></a>&emsp;&emsp;&emsp;
 
